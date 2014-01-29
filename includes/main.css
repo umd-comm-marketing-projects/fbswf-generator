@@ -1,0 +1,76 @@
+body {
+	background-image: url(bg.gif);
+	background-position: top left;
+	background-repeat:repeat;
+}
+
+form {
+	background-color: #FFFFFF;
+	font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	width: 800px;
+	margin: 200px auto 0 auto;
+	padding: 20px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+label {
+	margin-right:10px;
+}
+
+input[type=text] {
+	font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
+	font-size: 24px;
+	color:#555;
+	width: 760px;
+	margin: 15px auto;
+	background-color:#EFEFEF;
+	border: #CCC 1px solid;
+	padding:8px;
+}
+
+input[type=submit] {
+	background-color:#c8d0e0;
+	border: #000066 1px solid;
+	display:block;
+	font-family: 'Gill Sans MT', 'Gill Sans', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	padding:10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+input[type=radio] {
+	margin:0 auto 20px 0;
+}
+
+.blue , .maize {
+	padding: 5px 15px;
+}
+
+.blue {
+	background-color: #c8d0e0;
+	border: #000066 1px solid;
+}
+
+.maize {
+	background-color: #ffe29e;
+	border: #f2b20b 1px solid;
+}
+
+#fb_code_contain {
+	display:none;	
+}
+
+textarea#fb_code {
+	display:block;
+	width:500px;
+	height:300px;
+}

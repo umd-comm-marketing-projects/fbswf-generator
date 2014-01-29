@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>FB:SWF Generator</title>
+
+	<!-- STYLESHEETS -->
+    <link rel="stylesheet" type="text/css" href="includes/clear.css" />
+    <link rel="stylesheet" type="text/css" href="includes/main.css" />
+    <link rel="stylesheet" type="text/css" href="includes/fancybox/jquery.fancybox-1.3.1.css" />
+    <!-- SCRIPTS -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="includes/fancybox/jquery.fancybox-1.3.1.pack.js"></script>
+    <script type="text/javascript" src="includes/main.js"></script>
+
+</head>
+
+<body>
+
+<form id="yt_form" action="#" method="POST">
+	<label for="yt_url">Enter the Full, Original YouTube URL Below</label>
+	<input id="yt_url" type="text" name="yt_url"  />
+    <label for="yt_color">Choose a color</label>
+    <span class="blue"><input type="radio" name="yt_color" value="blue" /></span>
+    <span class="maize"><input type="radio" name="yt_color" value="maize" /></span>
+	<input id="yt_form_submit" type="submit" name="yt_form_submit" value="Generate" />
+</form>
+
+<div id="fb_code_contain">
+	<a id="fancybox-trigger" href="#fb_code"></a>
+	<textarea id="fb_code"></textarea>
+</div>
+
+</body>
+</html>
