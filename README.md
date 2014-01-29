@@ -7,6 +7,11 @@ to a YouTube video and generates the fbswf code with some inline formatting to
 make everything look pretty
 
 
+![screenshot 1](img/screenshot-1.png)
+
+![screenshot 2](img/screenshot-2.png)
+
+
 ## Notes / Terms
 
 I **do not own fancybox**. It's heavily used in this project and I'm very
